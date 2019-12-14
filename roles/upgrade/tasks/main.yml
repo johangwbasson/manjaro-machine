@@ -1,0 +1,7 @@
+---
+- name: Upgrade using main
+  shell: pacman -Syyu
+  become: yes
+
+- name: Upgrade using aur
+  shell: yay -Syyu

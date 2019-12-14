@@ -1,0 +1,80 @@
+utils:
+    - base-devel
+    - gconf
+    - libcurl-gnutls
+    - binutils
+    - gcc
+    - htop
+    - make
+    - mlocate
+    - python-pip
+    - terminator
+    - tree
+    - xclip
+    - xorg-xinput
+    - ntp
+    - yay
+    - mackup
+    - rofi
+    - htop
+    - tmux
+    - mc
+    - the_silver_searcher
+
+utils_aur:
+    - rofi-calc
+    - mackup
+
+development:
+    - jq
+    - jdk8-openjdk
+    - jdk11-openjdk
+    - maven
+    - clojure
+    - scala
+    - sbt
+    - gradle
+
+development_aur:
+    - intellij-idea-ce
+    - intellij-idea-ultimate-edition
+
+editors:
+    - neovim
+    - emacs
+    - atom
+
+editors_aur:
+    - vim-plug
+
+docker:
+    - docker
+    - docker-compose
+
+desktop:
+    - gimp
+    - flameshot
+    - virtualbox
+    - sqlworkbenchj
+
+desktop_aur:
+    - spotify
+    - bitwarden-bin
+    - slack-desktop
+    - dropbox
+    - skype-desktop-bin
+    - tusk
+    - mailspring
+    - nerd-fonts-complete
+    - otf-fira-code
+    - terminus-font
+    - ttf-inconsolata
+    - ttf-symbola
+    - telegram-desktop-bin
+
+browser:
+    - firefox-developer-edition
+    - chromium
+
+browser_aur:
+    - google-chrome

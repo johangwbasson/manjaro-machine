@@ -1,0 +1,11 @@
+---
+- name: Install Desktop Applications
+  pacman:
+    name: '{{ desktop }}'
+    state: present
+  become: yes
+
+- name: Install AUR Desktop Applications
+  yay:
+    name: '{{ desktop_aur }}'
+    state: present

@@ -1,0 +1,11 @@
+---
+- name: Install Browsers
+  pacman:
+    name: '{{ browsers }}'
+    state: present
+  become: yes
+
+- name: Install AUR browsers
+  yay: 
+    name: '{{ browser_aur }}'
+    state: present

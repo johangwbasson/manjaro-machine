@@ -1,0 +1,9 @@
+---
+- name: Install Utils
+  pacman:
+    name: '{{ utils }}'
+    state: present
+  become: yes
+
+- include: zsh.yml
+- include: ntp.yml

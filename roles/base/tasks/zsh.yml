@@ -1,0 +1,8 @@
+---
+- name: Install Oh My Zsh
+  script: ../files/install-oh-my-zsh.sh johan
+  register: install_result
+  changed_when: install_result.rc == 0
+  failed_when: install_result.rc != 0 and install_result.rc != 255
+  tags:
+    - zsh
