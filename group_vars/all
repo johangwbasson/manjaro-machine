@@ -20,8 +20,6 @@ utils:
     - tmux
     - mc
     - the_silver_searcher
-
-utils_aur:
     - rofi-calc
     - mackup
 
@@ -34,17 +32,14 @@ development:
     - scala
     - sbt
     - gradle
-
-development_aur:
     - intellij-idea-ce
     - intellij-idea-ultimate-edition
+    - sqlworkbenchj
 
 editors:
     - neovim
     - emacs
     - atom
-
-editors_aur:
     - vim-plug
 
 docker:
@@ -55,9 +50,6 @@ desktop:
     - gimp
     - flameshot
     - virtualbox
-    - sqlworkbenchj
-
-desktop_aur:
     - spotify
     - bitwarden-bin
     - slack-desktop
@@ -69,12 +61,12 @@ desktop_aur:
     - otf-fira-code
     - terminus-font
     - ttf-inconsolata
-    - ttf-symbola
     - telegram-desktop-bin
+    - tilda
+    - mega-sync
 
 browser:
     - firefox-developer-edition
     - chromium
-
-browser_aur:
     - google-chrome
+    

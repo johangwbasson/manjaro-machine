@@ -1,11 +1,6 @@
 ---
 - name: Install Development tools
-  pacman:
+  yay:
     name: '{{ development }}'
     state: present
   become: yes
-
-- name: Install AUR Development
-  yay: 
-    name: '{{ development_aur }}'
-    state: present  

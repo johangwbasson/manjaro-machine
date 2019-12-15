@@ -1,11 +1,6 @@
 ---
 - name: Install Editors
-  pacman:
+  yay:
     name: '{{ editors }}'
     state: present
   become: yes
-
-- name: Install AUR Editors
-  yay: 
-    name: '{{ editors_aur }}'
-    state: present  

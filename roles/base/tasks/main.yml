@@ -1,6 +1,6 @@
 ---
 - name: Install Utils
-  pacman:
+  yay:
     name: '{{ utils }}'
     state: present
   become: yes
