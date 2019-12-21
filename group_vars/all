@@ -35,6 +35,15 @@ development:
     - intellij-idea-ce
     - intellij-idea-ultimate-edition
     - sqlworkbenchj
+    - meld
+    - diffmerge
+    - insomnia
+    - stack
+    - ghc
+    - brittany
+    - haskell-ide-engine 
+    - hoogle
+    - python-virtualenv
 
 editors:
     - neovim
@@ -64,6 +73,8 @@ desktop:
     - telegram-desktop-bin
     - tilda
     - mega-sync
+    - postgresql-libs
+    - mariadb-libs
 
 browser:
     - firefox-developer-edition
