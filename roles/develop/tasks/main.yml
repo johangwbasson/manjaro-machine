@@ -1,6 +1,9 @@
 ---
 - name: Install Development tools
-  yay:
+  apt:
     name: '{{ development }}'
     state: present
   become: yes
+
+- include: docker.yml
+- include: virtualbox.yml

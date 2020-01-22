@@ -1,6 +1,12 @@
 ---
 - name: Install Desktop Applications
-  yay:
+  apt:
     name: '{{ desktop }}'
     state: present
   become: yes
+
+- name: Allow snap applications to be in the menu
+  command: ln -f -s /var/lib/snapd/desktop/applications /usr/share/applications/snapd
+  become: yes
+
+- include: chrome.yml

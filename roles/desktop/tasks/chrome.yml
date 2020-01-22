@@ -1,0 +1,20 @@
+- name: add public key
+  apt_key:
+    id: A040830F7FAC5991
+    url: https://dl-ssl.google.com/linux/linux_signing_key.pub
+    state: present
+  become: yes
+
+- name: add chrome repository
+  apt_repository:
+    repo: "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
+    state: present
+    update_cache: true
+  become: yes
+
+- name: install dependencies
+  apt:
+    name: google-chrome-stable
+    update_cache: true
+    cache_valid_time: 3600
+  become: yes
