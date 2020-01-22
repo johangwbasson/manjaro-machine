@@ -1,6 +1,6 @@
 ---
 - name: Install Utils
-  apt:
+  yay:
     name: '{{ utils }}'
     state: present
   become: yes

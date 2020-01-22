@@ -1,6 +1,6 @@
 ---
 - name: Install Editors
-  apt:
+  yay:
     name: '{{ editors }}'
     state: present
   become: yes

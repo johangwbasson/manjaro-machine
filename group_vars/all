@@ -1,70 +1,83 @@
 utils:
-    - build-essential
-    - gconf2
+    - base-devel
+    - gconf
+    - libcurl-gnutls
     - binutils
+    - gcc
     - htop
+    - make
     - mlocate
     - python-pip
     - terminator
     - tree
     - xclip
+    - xorg-xinput
     - ntp
+    - yay
+    - mackup
     - rofi
     - htop
     - tmux
     - mc
-    - silversearcher-ag
-    - dnsmasq
-    - zsh
-    - git
-    - ntp
+    - the_silver_searcher
+    - rofi-calc
+    - mackup
 
 development:
     - jq
-    - openjdk-11-jdk
+    - jdk8-openjdk
+    - jdk11-openjdk
     - maven
     - clojure
     - scala
+    - sbt
     - gradle
+    - intellij-idea-ce
+    - intellij-idea-ultimate-edition
+    - sqlworkbenchj
     - meld
+    - diffmerge
+    - insomnia
+    - stack
+    - ghc
+    - brittany
+    - haskell-ide-engine 
+    - hoogle
     - python-virtualenv
 
 editors:
     - neovim
     - emacs
-    - emacs-el
+    - atom
+    - vim-plug
 
 docker:
+    - docker
     - docker-compose
 
 desktop:
     - gimp
     - flameshot
-    - xfonts-terminus
-    - fonts-inconsolata
+    - virtualbox
+    - spotify
+    - bitwarden-bin
+    - slack-desktop
+    - dropbox
+    - skype-desktop-bin
+    - tusk
+    - mailspring
+    - nerd-fonts-complete
+    - otf-fira-code
+    - terminus-font
+    - ttf-inconsolata
+    - telegram-desktop-bin
     - tilda
-    - snapd
-    - adapta-gtk-theme
-    - papirus-icon-theme
-    - lightdm-gtk-greeter-settings
-    - snapd
+    - mega-sync
+    - postgresql-libs
+    - mariadb-libs
 
 browser:
+    - firefox-developer-edition
     - chromium
-
-snap:
-    - keepassxc
-    - mackup
-    - intellij-idea-ultimate
-    - intellij-idea-community
-    - insomnia
-    - atom
-    - spotify
-    - bitwarden
-    - slack
-    - skype
-    - tusk
-    - telegram-desktop
-    - firefox
-    - code
-
+    - google-chrome
+    

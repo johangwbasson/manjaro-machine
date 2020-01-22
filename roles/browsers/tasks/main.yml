@@ -1,6 +1,6 @@
 ---
 - name: Install Browsers
-  apt:
+  yay:
     name: '{{ browser }}'
     state: present
   become: yes

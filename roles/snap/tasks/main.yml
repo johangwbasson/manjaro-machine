@@ -1,6 +1,0 @@
----
-- name: Install Snap Applications
-  snap:
-    name: '{{ snap }}'
-    classic: yes
-  become: yes
